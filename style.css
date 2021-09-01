@@ -74,3 +74,42 @@ section {
 }
 
 /* START BELOW THIS LINE */
+/* Static is the default position property that all HTML Elements start off with */
+#power {
+  position: relative;
+  right: 255px;
+}
+
+#space {
+  position: relative;
+  right: 115px;
+  top: 115px;
+}
+
+#soul {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#reality {
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+}
+
+#mind {
+  position: fixed;
+  left: 0;
+}
+
+#time {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+h1 {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
