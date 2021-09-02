@@ -36,7 +36,7 @@ section {
 }
 
 #one {
-  background: rgb(200,60,60);
+  background: rgb(200, 60, 60);
 }
 
 #two {
@@ -74,17 +74,27 @@ section {
 }
 
 /* START BELOW THIS LINE */
+
+/* 1 */
+
 /* Static is the default position property that all HTML Elements start off with */
+
+/* 2 */
+
 #power {
   position: relative;
   right: 255px;
 }
+
+/* 3 */
 
 #space {
   position: relative;
   right: 115px;
   top: 115px;
 }
+
+/* 4 */
 
 #soul {
   position: absolute;
@@ -93,6 +103,9 @@ section {
   /* Bonus */
   z-index: 2;
 }
+
+/* 5 */
+
 #reality {
   position: absolute;
   right: 0;
@@ -101,12 +114,16 @@ section {
   z-index: 4;
 }
 
+/* 6 */
+
 #mind {
   position: fixed;
   right: 0;
   /* Bonus */
   z-index: 1;
 }
+
+/* 7 */
 
 #time {
   position: fixed;
@@ -116,13 +133,17 @@ section {
   z-index: 3;
 }
 
+/* 8 */
+
 h1 {
   position: sticky;
   top: 0;
+  /* 9 */
   z-index: 1;
 }
- 
+
 /* Bonus */
+
 h2 {
   position: sticky;
   top: 65px;
